@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav h4 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: white !important;
+  background-color: black;
+  padding: 10px 0px;
+  margin: 0px !important;
+  font-size: medium !important;
+  font-weight: 700 !important;
+}
+nav {
+  padding-top: 0px !important;
+}
+.fluid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.fluid .logomain {
+  width: 60%;
+}
+.fluid-contain {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: center;
+}
+.fluid-contain * {
+  margin: 0vh 0.2vw;
+  color: black;
+}
+.search {
+  outline: none;
+  border: none;
+}
+.search,
+.label-search {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 20vh auto 5vh auto;
+}
+.content {
+  width: 50%;
+}
+.content1 {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content2 img {
+  display: block;
+  width: 100%;
+}
+.sub {
+  width: 80%;
+}
+.sub * {
+  text-align: center;
+}
+.sub h3 {
+  margin: 7vh 0vw;
+  letter-spacing: 5px;
+}
+.sub p {
+  font-size: medium;
+  font-weight: 200;
+}
+
+footer {
+  background-color: black;
+  padding: 10vh 3vw;
+}
+.foot-data {
+  color: white;
+  font-weight: 200;
+}
+.foot-data label {
+  display: block;
+}
+.foot-data input[type="email"] {
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 200;
+  background-color: #ffffff00;
+  border-bottom: 2px solid white;
+}
+.foot-data button {
+  margin-top: 7px;
+  padding: 1vh 1vw;
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  font-weight: 200;
+  transition: all 0.5s ease-in-out;
+}
+.foot-data button:hover {
+  background-color: black;
+  color: white;
+}
+.foot-data input[type="email"],
+.foot-data button {
+  margin: 2vh 2vw 0vh 0vw;
+}
+.end {
+  background-color: rgb(46 45 45);
+  padding: 1vh 3vw;
+}
+.end p {
+  margin: 0;
+  color: white;
+  font-weight: 100;
+  font-size: small;
+}
